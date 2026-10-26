@@ -1,0 +1,28 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Sensitive configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editor settings
+.vscode/
+.idea/
+
+# Generated datasets
+*.csv
+*.xlsx
+
+# Temporary files
+*.log
+.DS_Store
